@@ -24,7 +24,7 @@ public class scroll : MonoBehaviour
     {
         if(transform.position.y < -spriteWidth)
         {
-            SceneManager.LoadSceneAsync(1);
+            SceneManager.LoadSceneAsync(0);
             ResetPosition();
         }
     }
